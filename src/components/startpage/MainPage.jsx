@@ -1,11 +1,18 @@
 import React from "react";
 import MarginLayout from "../common/MarginLayout";
 import ImageGallery from "./ImageGallery";
+import ImageHeader from "../../components/common/ImageHeader";
 
 const MainPage = () => {
   return (
     <>
       <div className="container">
+        <ImageHeader
+          title="skreddersydde interiørløsninger av solid kvalitet og god design."
+          img="https://images.unsplash.com/photo-1581166975727-9bdb6c1248af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          header="Velkommen til"
+          header2="solør 3 Design"
+        />
         <MarginLayout>
           <h1 className="global-header header">Solør 3Design</h1>
           <div className="content-container">

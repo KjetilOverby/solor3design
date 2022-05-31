@@ -1,9 +1,15 @@
 import React from "react";
 
-const ImageHeader = ({ title, img }) => {
+const ImageHeader = ({ title, img, header, header2 }) => {
   return (
     <>
       <div className="container">
+        {header && (
+          <div>
+            <h1 className="header1">{header}</h1>
+            <h1 className="header1">{header2}</h1>
+          </div>
+        )}
         <h1 className="header">{title}</h1>
       </div>
       <style jsx>
@@ -20,6 +26,12 @@ const ImageHeader = ({ title, img }) => {
             background-position: center;
             display: grid;
             place-items: center;
+          }
+          .header1 {
+            color: #fff;
+            font-weight: bold;
+            font-size: 5rem;
+            text-transform: uppercase;
           }
           .header {
             color: #fff;

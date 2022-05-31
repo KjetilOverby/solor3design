@@ -52,8 +52,8 @@ const HeaderComponent = () => {
                   <Link href="/mobler">
                     <p className="tabs-mobile">Møbler</p>
                   </Link>
-                  <Link href="/">
-                    <p className="tabs-mobile">Om oss</p>
+                  <Link href="/kontakt">
+                    <p className="tabs-mobile">Kontakt</p>
                   </Link>
                 </div>
               )}
@@ -87,7 +87,7 @@ const HeaderComponent = () => {
                 <p className="tabs">Møbler</p>
               </Link>
               <Link href="/kontakt">
-                <p className="tabs">Om oss</p>
+                <p className="tabs">Kontakt</p>
               </Link>
             </>
           )}
